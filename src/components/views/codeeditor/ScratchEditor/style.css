@@ -1,0 +1,11 @@
+text.blocklyFlyoutLabelText {
+  fill: #959da7 !important;
+}
+
+.blocklyFlyoutButton text.blocklyText {
+  fill: #daddee !important;
+}
+
+.blocklyMainBackground {
+  stroke-width: 0;
+}

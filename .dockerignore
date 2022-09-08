@@ -1,0 +1,14 @@
+.git
+.DS_Store
+.gitignore
+Dockerfile
+out
+dist
+node_modules
+.npmrc
+.nvmrc
+.dockerignore
+.eslintcache
+README.md
+.idea
+.vscode

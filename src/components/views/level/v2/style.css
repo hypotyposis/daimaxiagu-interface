@@ -1,0 +1,10 @@
+.editor-side-resize-bar {
+    transition: all 300ms;
+    z-index   : 1;
+}
+
+.editor-side-resize-bar:hover,
+.editor-side-resize-bar:active {
+    background-color: #0093ff77;
+    box-shadow      : 0 0 3px #0009;
+}

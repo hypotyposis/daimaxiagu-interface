@@ -1,0 +1,7 @@
+.cm-editor {
+    outline-color: transparent !important;
+    outline: none !important;
+}
+.cm-gutter.cm-lineNumbers {
+    min-width: 40px;
+}

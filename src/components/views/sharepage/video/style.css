@@ -1,0 +1,16 @@
+@keyframes slideUpDown{
+    0% {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+
+    95% {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    100% {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+  }

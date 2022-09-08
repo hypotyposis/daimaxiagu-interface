@@ -1,0 +1,31 @@
+/*webkit内核*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* 解决 iOS 上的屏幕滚动和全屏高度问题 */
+html,
+body,
+div#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#rotate-tipbox {
+  display: none;
+}
+
+@media only screen and (orientation: portrait) and (max-width: 800px) {
+  #rotate-tipbox {
+    display: flex;
+  }
+}
+
+.button-transition {
+  transition: opacity 400ms background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+      0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
